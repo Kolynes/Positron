@@ -1,6 +1,6 @@
 <template>
     <v-app>
-        <v-app-bar app flat color="black">
+        <v-app-bar app flat>
             <img src="../../assets/images/logo.png" style="width: 125px"/>
             <v-spacer/>
             <v-tooltip bottom>
@@ -22,18 +22,18 @@
                 <router-view/>
             </v-fade-transition>
         </v-main>
-        <v-bottom-navigation app shift class="primary black--text" grow v-if="$vuetify.breakpoint.smAndDown">
+        <v-bottom-navigation app shift class="black--text" grow v-if="$vuetify.breakpoint.smAndDown">
             <v-btn :key="0" to="/account/home">
                 <span class="black--text font-weight-bold">Home</span>
-                <v-icon color="black">mdi-home</v-icon>
+                <v-icon color="primary">mdi-home</v-icon>
             </v-btn>
             <v-btn :key="1" to="/account/levels">
                 <span class="black--text font-weight-bold">Levels</span>
-                <v-icon color="black">mdi-transfer</v-icon>
+                <v-icon color="primary">mdi-transfer</v-icon>
             </v-btn>
             <v-btn :key="2" to="/account/spillovers">
                 <span class="black--text font-weight-bold">Spillovers</span>
-                <v-icon color="black">mdi-account-supervisor</v-icon>
+                <v-icon color="primary">mdi-account-supervisor</v-icon>
             </v-btn>
         </v-bottom-navigation>
     </v-app>

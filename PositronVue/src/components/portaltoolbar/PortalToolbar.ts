@@ -11,9 +11,8 @@ export default class PortalToolbar extends Vue {
 
     readonly links: {[key: string]: string}[] = [
         {name: "Home", to: `/home?r=${this.r}`},
-        {name: "How it Works", to: `/howItWorks?r=${this.r}`},
-        {name: "Get Started", to: `/signUp?r=${this.r}`},
-        {name: "Sign In", to: `/signIn?r=${this.r}`},
+        {name: "How it Works", to: `/home?r=${this.r}&t=howItWorks`},
+        {name: "Buy TRX Now!!", to: `/home?r=${this.r}&t=buy`},
     ]
 
     @Root.Mutation 

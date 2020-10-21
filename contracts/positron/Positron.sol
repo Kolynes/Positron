@@ -23,7 +23,9 @@ contract Positron {
 
     mapping(address => Participant) participants;
     uint public numberOfParticipants = 0;
-    uint[8] public levelParticipants;
+    uint[8] public levelParticipants = [
+        0, 0, 0, 0, 0, 0, 0, 0
+    ];
     Level[] levels;
     Spillover[] spillovers;
 
@@ -212,7 +214,7 @@ contract Positron {
     function getLevelParticipants(uint8 level) public view isOwner returns (uint) {
         return levelParticipants[level - 1];
     }
-
+    
     function withdraw(uint amount) public isOwner returns (bool) {
         owner.walletAddress.transfer(amount);
     }

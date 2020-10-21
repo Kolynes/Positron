@@ -21,7 +21,7 @@ export default class Account extends VuexModule {
                 address: window.tronWeb?.address.fromHex(response[1]),
                 upline: window.tronWeb?.address.fromHex(response[2]),
                 currentLevel: response[3],
-                isOnwer: response[4]
+                isOwner: response[4]
             }};
         }
         else if(response[0] === false){
@@ -42,7 +42,7 @@ export default class Account extends VuexModule {
                 address: window.tronWeb?.address.fromHex(response[1]),
                 upline: window.tronWeb?.address.fromHex(response[2]),
                 currentLevel: response[3],
-                isOnwer: response[4]
+                isOwner: response[4]
             }};
         }
         else if(response.length > 0) {
@@ -77,7 +77,7 @@ export default class Account extends VuexModule {
             address: "",
             currentLevel: 0,
             upline: "",
-            isOnwer: false
+            isOwner: false
         }};
     }
 }

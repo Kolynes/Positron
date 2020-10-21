@@ -2,10 +2,10 @@
     <v-app>
         <v-container style="position: fixed; top: 0; bottom: 0; text-align: right; background: black">
             <v-toolbar color="transparent" dark>
-                <img src="./assets/images/logo.png" style="width: 100px"/>
+                <img src="./assets/images/logoInverse.png" style="width: 100px"/>
                 <v-spacer/>
                 <v-btn icon @click="toggleMinimized">
-                    <v-icon color="primary">mdi-close</v-icon>
+                    <v-icon color="accent">mdi-close</v-icon>
                 </v-btn>
             </v-toolbar>
             <v-list class="transparent" dark>
@@ -44,10 +44,11 @@ export default {
     },
     data(){
         return {
-            minimizedStyle: "transform: scale(0.75) translateX(-50vw) translateY(12.5vh); border-radius: 30%",
+            minimizedStyle: "transform: scale(0.75) translateX(-50vw); height: 100vh; overflow: hidden",
             links: [
                 {name: "Home", to: `/home?r=${this.r}`, click: this.toggleMinimized},
-                {name: "How it Works", to: `/howItWorks?r=${this.r}`, click: this.toggleMinimized},
+                {name: "How it Works", to: `/home?r=${this.r}&t=howItWorks`, click: this.toggleMinimized},
+                {name: "Buy TRX Now!!", to: `/home?r=${this.r}&t=buy`, click: this.toggleMinimized},
                 {name: "Get Started", to: `/signUp?r=${this.r}`, click: this.toggleMinimized},
                 {name: "Sign In", to: `/signIn?r=${this.r}`, click: this.toggleMinimized},
             ]
@@ -62,6 +63,13 @@ export default {
         ...mapMutations("Root", [
             "toggleMinimized"
         ])
+    },
+    watch: {
+        minimized(value) {
+            if(value)
+                document.getElementsByTagName("html")[0].style.overflowY = "hidden"
+            else document.getElementsByTagName("html")[0].style.overflowY = "scroll"
+        }
     }
 }
 </script>

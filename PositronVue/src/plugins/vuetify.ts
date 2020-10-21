@@ -5,13 +5,15 @@ import "vuetify/dist/vuetify.min.css";
 Vue.use(Vuetify);
 export default new Vuetify({
     theme: {
-        dark: true,
+        // dark: true,
         themes: {
             light: {
-                primary: "#fea500"
+                primary: "#2c2a59",
+                accent: "#f54952"
             },
             dark: {
-                primary: "#fea500"
+                primary: "#f54952",
+                accent: "#2c2a59"
             }
         }
     }

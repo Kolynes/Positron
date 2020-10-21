@@ -12,7 +12,6 @@ const routes: Array<RouteConfig> = [
   {path: "/home", component: Home, props: route => route.query},
   {path: "/signUp", component: SignUp, props: route => route.query},
   {path: "/signIn", component: SignIn, props: route => route.query},
-  {path: "/howItWorks", component: About, props: route => route.query},
   {path: "/account", redirect: "/account/home", component: () => import("@/views/account/Account.vue"), children: [
     {path: "/account/home", component: () => import("@/views/account/home/Home.vue")},
     {path: "/account/levels", component: () => import("@/views/account/levels/Levels.vue")},

@@ -76,17 +76,17 @@ export default class Positron {
             return window.tronWeb?.toBigNumber(bigNumber).toNumber();
         } catch(e) {
             console.log(e);
-            return -1;
+            return 0;
         }
     }
 
     async getLevelParticipants(level: number): Promise<number> {
         try {
-            var bigNumber = await this.contract.getLevelParticipants().call();
+            var bigNumber = await this.contract.getLevelParticipants(level).call();
             return window.tronWeb?.toBigNumber(bigNumber).toNumber();
         } catch(e) {
             console.log(e);
-            return -1;
+            return 0;
         }
     }
 
@@ -96,7 +96,7 @@ export default class Positron {
             return window.tronWeb?.toBigNumber(bigNumber).toNumber();
         } catch(e) {
             console.log(e);
-            return -1;
+            return 0;
         }
     }
 
@@ -106,14 +106,13 @@ export default class Positron {
             return window.tronWeb?.toBigNumber(bigNumber).toNumber();
         } catch(e) {
             console.log(e);
-            return -1;
+            return 0;
         }
     }
 
     async withdraw(amount: number): Promise<boolean> {
         try {
-            var response = await this.contract.withdraw().send({
-                callValue: amount,
+            var response = await this.contract.withdraw(amount).send({
                 shouldPollResponse: true
             });
             return response[0];
