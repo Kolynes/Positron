@@ -2,12 +2,12 @@ export default function startDots() {
     var canvas = document.getElementById("canvas") as HTMLCanvasElement;
     var ctx = canvas.getContext('2d') as CanvasRenderingContext2D;
     
-    canvas.width = document.getElementById("jumbo")!.clientWidth - 10;
-    canvas.height = document.getElementById("jumbo")!.clientHeight - 10;
+    canvas.width = document.getElementById("jumbo")!.clientWidth - 20;
+    canvas.height = document.getElementById("jumbo")!.clientHeight - 20;
     
     var stars: any[] = [], // Array that contains the stars
         FPS = 60, // Frames per second
-        x = 20, // Number of stars
+        x = 40, // Number of stars
         mouse = {
           x: 0,
           y: 0

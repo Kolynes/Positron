@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head id="head">
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta name="theme-color" content="#2c2a59"/>
-    <link rel="icon" href="logoSolo.png">
     <title>Positron</title>
   </head>
   <body>
@@ -15,4 +13,13 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
+  <script>
+    var icon = document.createElement("link")
+    icon.rel="icon"
+    icon.href="./logoSolo.png"
+    setTimeout(() => 
+    document.getElementById("head").appendChild(
+      icon
+    ), 3000)
+  </script>
 </html>

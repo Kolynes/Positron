@@ -3,7 +3,7 @@
 module.exports = {
     outputDir: './dist/',
     runtimeCompiler: true,
-    // publicPath: process.env.NODE_ENV === 'production'? '/static/ContentAndSocialMediaSystemApp/' : 'http://localhost:8080/',
+    publicPath: process.env.NODE_ENV === 'production'? '/static/' : '',
     css: {
         loaderOptions: {
             sass: {

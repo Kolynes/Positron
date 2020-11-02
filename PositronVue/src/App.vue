@@ -47,10 +47,10 @@ export default {
             minimizedStyle: "transform: scale(0.75) translateX(-50vw); height: 100vh; overflow: hidden",
             links: [
                 {name: "Home", to: `/home?r=${this.r}`, click: this.toggleMinimized},
-                {name: "How it Works", to: `/home?r=${this.r}&t=howItWorks`, click: this.toggleMinimized},
+                {name: "How it Works", to: `/howItWorks?r=${this.r}`, click: this.toggleMinimized},
                 {name: "Buy TRX Now!!", to: `/home?r=${this.r}&t=buy`, click: this.toggleMinimized},
-                {name: "Get Started", to: `/signUp?r=${this.r}`, click: this.toggleMinimized},
-                {name: "Sign In", to: `/signIn?r=${this.r}`, click: this.toggleMinimized},
+                // {name: "Get Started", to: `/signUp?r=${this.r}`, click: this.toggleMinimized},
+                // {name: "Sign In", to: `/signIn?r=${this.r}`, click: this.toggleMinimized},
             ]
         }
     },
