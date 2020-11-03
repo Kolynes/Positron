@@ -13,6 +13,7 @@
                     <v-flex xs12 sm6>
                         <p class="font-weight-bold display-1">Financial freedom in the <br><span class="accent--text">TRON Network</span></p>
                         <p class="font-weight-bold grey--text title">Uplifting the financial status of the world through the innovation of a decentralized web</p>
+                        
                         <div class="my-5">
                             <h2>Launches in</h2>
                             <v-layout>
@@ -34,12 +35,20 @@
                                 </v-flex>
                             </v-layout>
                         </div>
+                        <div>
+                            <v-btn large rounded color="primary" class="font-weight-bold text-capitalize" @click="showSocialMediaHandlesCTA = !showSocialMediaHandlesCTA">Follow us on social media</v-btn><br>
+                            <v-fab-transition v-for="(handle, index) in handles" :key="index">
+                                <v-btn bottom right large @click="gotoHandle(handle.link)" icon class="font-weight-bold primary ma-3" color="white" v-if="showSocialMediaHandlesCTA">
+                                    <v-icon>{{handle.icon}}</v-icon>
+                                </v-btn>
+                            </v-fab-transition>
+                        </div>
                     </v-flex>
                 </v-layout>
             </v-container>
             <br><br>
-            <div style="background: rgba(0,0,0,0.02); height: 60vh" id="Intro">
-                <v-container>
+            <div style="background: rgba(0,0,0,0.02); min-height: 60vh" id="Intro">
+                <v-container fill-height grid-list-xl style="min-height: 60vh">
                     <v-layout>
                         <v-flex xs12 sm6>
                             <h1 id="intro">This is <span class="accent--text">Positron</span></h1>
@@ -54,7 +63,7 @@
                 </v-container>
             </div>
             <div style="background: rgba(0,0,0,0.05); min-height: 60vh" id="contact">
-                <v-container fill-height grid-list-xl>
+                <v-container fill-height grid-list-xl style="min-height: 60vh">
                     <v-layout wrap align-center>
                         <v-flex xs12 sm6>
                             <h1 id="buy">Buy <span class="accent--text">TRX</span> Now!!!</h1>

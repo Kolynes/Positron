@@ -19,11 +19,12 @@ export default class Home extends Vue {
 
     timestamp: number = 0;
     showSocialMediaHandles: boolean = false;
+    showSocialMediaHandlesCTA: boolean = false;
     readonly handles = [
         // {icon: "mdi-facebook", link: ""},
         {icon: "mdi-whatsapp", link: "https://wa.me/+17866554074"},
         {icon: "mdi-telegram", link: "https://t.me/PositronNetwork"},
-        {icon: "mdi-instagram", link: "https://instagram.com/positron.online?igshid=33adtn4dh3xr"},
+        {icon: "mdi-instagram", link: "https://www.instagram.com/positron.live"},
     ]
 
     get countDown(): string[] {

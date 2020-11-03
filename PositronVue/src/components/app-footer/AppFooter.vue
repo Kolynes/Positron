@@ -1,5 +1,6 @@
 <template>
-    <v-sheet color="white--text" dark min-height="40vh">
+    <v-sheet color="white--text" dark min-height="40vh" id="footer">
+        <canvas id="canvasfooter" style="position:absolute; z-index: 0; left: 0; right: 0; opacity: 0.5"/>
         <v-container fill-height grid-list-xl>
             <v-layout wrap>
                 <v-flex xs12 sm4>

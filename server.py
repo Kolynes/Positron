@@ -4,7 +4,7 @@ import json
 
 @route("/timer")
 def timer():
-    timestamp = datetime(2020, 11, 23, 16, 0, 0).timestamp() * 1000
+    timestamp = datetime(2020, 11, 17, 16, 0, 0).timestamp() * 1000
     return json.dumps({
         "timestamp": timestamp
     })
