@@ -9,12 +9,12 @@ export default class Footer extends Vue {
 
     readonly links = [
         {to: `/home?r=${this.r}`, name: "Home"},
-        {to: `/home?r=${this.r}&t=buy`, name: "Buy TRX Now!!"},
+        // {to: `/home?r=${this.r}&t=buy`, name: "Buy TRX Now!!"},
         {to: `/howItWorks?r=${this.r}`, name: "How It Works"},
     ];
 
     readonly contacts = [
-        {icon: "mdi-whatsapp", click: "https://wa.me/+17866554074", name: "Positron Network"},
+        // {icon: "mdi-whatsapp", click: "https://wa.me/+17866554074", name: "Positron Network"},
         {icon: "mdi-telegram", click: "https://t.me/PositronNetwork", name: "t.me/PositronNetwork"},
         {icon: "mdi-instagram", click: "https://www.instagram.com/positron.live/", name: "@positron.live"},
     ]

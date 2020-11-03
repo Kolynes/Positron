@@ -62,7 +62,7 @@
                     </v-layout>
                 </v-container>
             </div>
-            <div style="background: rgba(0,0,0,0.05); min-height: 60vh" id="contact">
+            <!-- <div style="background: rgba(0,0,0,0.05); min-height: 60vh" id="contact">
                 <v-container fill-height grid-list-xl style="min-height: 60vh">
                     <v-layout wrap align-center>
                         <v-flex xs12 sm6>
@@ -117,7 +117,7 @@
                         </v-flex>
                     </v-layout>
                 </v-container>
-            </div>
+            </div> -->
             <app-footer/>
         </v-main>
         <v-fab-transition>
