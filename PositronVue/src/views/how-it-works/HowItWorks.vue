@@ -10,7 +10,7 @@
                     The <span class="accent--text font-weight-bold">Positron Smart contract</span> was designed with everybody in mind. It’s easy and inexpensive to join with a registration fee of <span class="accent--text font-weight-bold">100 TRX</span>.
                 </p>
                 <p class="body-1">
-                    The Positron Smart Contract is consists of <span class="accent--text font-weight-bold">8 levels</span>. Each level as the following similar characteristics.
+                    The Positron Smart Contract consists of <span class="accent--text font-weight-bold">8 levels</span>. Each level has the following similar characteristics.
                 </p>
                 <br>
                 <h2 class="accent--text font-weight-bold">The Spillover Matrix</h2>

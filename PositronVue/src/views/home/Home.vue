@@ -11,7 +11,7 @@
                         </center>
                     </v-flex>
                     <v-flex xs12 sm6>
-                        <p class="font-weight-bold display-1">Financial freedom in the <br><span class="accent--text">TRON Network</span></p>
+                        <p class="font-weight-bold display-1">Financial establishment on the <br><span class="accent--text">TRON Network</span></p>
                         <p class="font-weight-bold grey--text title">Uplifting the financial status of the world through the innovation of a decentralized web</p>
                         
                         <div class="my-5">
