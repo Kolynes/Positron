@@ -9,7 +9,8 @@ export default class Level extends Vue {
 
     loading: boolean = false;
     upgrading: boolean = false;
-    slots: number = 0;
+    referrals: number = 0;
+    spillover: number = 0;
     interval!: any;
 
     callUpgrade() {
@@ -17,7 +18,10 @@ export default class Level extends Vue {
     }
     
     mounted() {
-        this.interval = setInterval(() => this.slots == 6? this.slots = 0 : this.slots++, 1000);
+        this.interval = setInterval(() => {
+            this.referrals == 6? this.referrals = 0 : this.referrals++;
+            this.spillover == 4? this.spillover = 0 : this.spillover++;
+        }, 1000);
     }
 
     destroyed() {
