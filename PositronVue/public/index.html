@@ -24,4 +24,14 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
+  <script>
+    var icon = document.createElement("link")
+    icon.rel="icon"
+    icon.href="static/logoSolo.png"
+    document.onload = () =>
+    setTimeout(() => 
+    document.getElementById("head").appendChild(
+      icon
+    ), 3000)
+  </script>
 </html>
