@@ -15,7 +15,7 @@
                 <br>
                 <h2 class="accent--text font-weight-bold">The Spillover Matrix</h2>
                 <p class="body-1">
-                    Positron was designed with everybody mind. We have engineered a system that ensures that <span class="accent--text font-weight-bold">everybody earns something by just being a member</span>. We call this <span class="accent--text font-weight-bold">The Spillover Matrix</span>. This matrix consists of two types of <span class="accent--text font-weight-bold">slots</span> explained as follows.
+                    Positron was designed with everybody in mind. We have engineered a system that ensures that <span class="accent--text font-weight-bold">everybody earns something by just being a member</span>. We call this <span class="accent--text font-weight-bold">The Spillover Matrix</span>. This matrix consists of two types of <span class="accent--text font-weight-bold">slots</span> explained as follows.
                 </p>
                 <v-layout wrap align-center>
                     <v-flex xs12 sm6>
@@ -68,7 +68,7 @@
                                 During the referral process, the participant will still be able to receive spillover in his or her spillover slots.
                                 At the point when the participant has filled up his 6 level slots, he or she will be able to
                                 upgrade to the next level. In the case where the spillover slots have not been completely filled
-                                up, they are carried over to the next level and will we filled up by the participants upliners
+                                up, they are carried over to the next level and will be filled up by the participants upliners
                                 eventually.
                             </p>
                         </v-flex>
@@ -105,7 +105,7 @@
                                 During the upgrade process, the participant will still be able to receive spillover in his or her spillover slots. Four new spillover slots are awarded in this level.
                                 At the point when the participant has filled up his 6 level slots, he or she will be able to
                                 upgrade to the next level. In the case where the spillover slots have not been completely filled
-                                up, they are carried over to the next level and will we filled up by the participants upliners
+                                up, they are carried over to the next level and will be filled up by the participants upliners
                                 eventually.
                             </p>
                         </v-flex>
@@ -142,7 +142,7 @@
                                 During the upgrade process, the participant will still be able to receive spillover in his or her spillover slots. Four new spillover slots are awarded in this level.
                                 At the point when the participant has filled up his 6 level slots, he or she will be able to
                                 upgrade to the next level. In the case where the spillover slots have not been completely filled
-                                up, they are carried over to the next level and will we filled up by the participants upliners
+                                up, they are carried over to the next level and will be filled up by the participants upliners
                                 eventually.
                             </p>
                         </v-flex>
@@ -178,7 +178,7 @@
                                 Each sucessfully upgraded downliner awards the participant 50% of the fee paid.
                                 During the upgrade process, the participant will still be able to receive spillover in his or her spillover slots. Four new spillover slots are awarded in this level.At the point when the participant has filled up his 6 level slots, he or she will be able to
                                 upgrade to the next level. In the case where the spillover slots have not been completely filled
-                                up, they are carried over to the next level and will we filled up by the participants upliners
+                                up, they are carried over to the next level and will be filled up by the participants upliners
                                 eventually.
                             </p>
                         </v-flex>
@@ -215,7 +215,7 @@
                                 During the upgrade process, the participant will still be able to receive spillover in his or her spillover slots. Four new spillover slots are awarded in this level.
                                 At the point when the participant has filled up his 6 level slots, he or she will be able to
                                 upgrade to the next level. In the case where the spillover slots have not been completely filled
-                                up, they are carried over to the next level and will we filled up by the participants upliners
+                                up, they are carried over to the next level and will be filled up by the participants upliners
                                 eventually.
                             </p>
                         </v-flex>
@@ -252,7 +252,7 @@
                                 During the upgrade process, the participant will still be able to receive spillover in his or her spillover slots. Four new spillover slots are awarded in this level.
                                 At the point when the participant has filled up his 6 level slots, he or she will be able to
                                 upgrade to the next level. In the case where the spillover slots have not been completely filled
-                                up, they are carried over to the next level and will we filled up by the participants upliners
+                                up, they are carried over to the next level and will be filled up by the participants upliners
                                 eventually.
                             </p>
                         </v-flex>
@@ -289,7 +289,7 @@
                                 During the upgrade process, the participant will still be able to receive spillover in his or her spillover slots. Four new spillover slots are awarded in this level.
                                 At the point when the participant has filled up his 6 level slots, he or she will be able to
                                 upgrade to the next level. In the case where the spillover slots have not been completely filled
-                                up, they are carried over to the next level and will we filled up by the participants upliners
+                                up, they are carried over to the next level and will be filled up by the participants upliners
                                 eventually.
                             </p>
                         </v-flex>
@@ -326,7 +326,7 @@
                                 During the upgrade process, the participant will still be able to receive spillover in his or her spillover slots. Four new spillover slots are awarded in this level.
                                 At the point when the participant has filled up his 6 level slots, he or she will be able to
                                 upgrade to the next level. In the case where the spillover slots have not been completely filled
-                                up, they are carried over to the next level and will we filled up by the participants upliners
+                                up, they are carried over to the next level and will be filled up by the participants upliners
                                 eventually.
                             </p>
                         </v-flex>

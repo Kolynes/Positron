@@ -9,6 +9,14 @@ def timer():
         "timestamp": timestamp
     })
 
+@route("/save/email", method="POST")
+def save_email():
+    email = open("emails.txt", "a")
+    email.write("%s\n" %request.POST["email"])
+    email.flush()
+    email.close()
+    return "true"
+
 @route("/<url:re:.*>")
 def loadHome(url):
     if url.startswith("static"):
