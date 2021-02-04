@@ -1,0 +1,32 @@
+{% load render_bundle from webpack_loader %}
+{% load static %}
+{% csrf_token %}
+<!DOCTYPE html>
+<html lang="en">
+  <head id="head">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="theme-color" content="#2c2a59">
+    <meta property="og:description" content="Financial establishment on the TRON Network" />
+    <meta property="og:image" content="/static/logoSolo.png" />
+    <link rel="icon" href="/static/logoSolo.png">
+    <title>Positron</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4V6JFS2Z3S"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-4V6JFS2Z3S');
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but Positron doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    {% render_bundle 'app' 'js' %}
+  </body>
+</html>
